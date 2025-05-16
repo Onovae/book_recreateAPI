@@ -38,47 +38,48 @@ A RESTful API built with **FastAPI** for managing books and users. This project 
 
 
 2. **Create a virtual environment & activate it**
-python -m venv venv
+    python -m venv venv
 
-## # On Windows:
-venv\Scripts\activate
-## # On macOS/Linux:
-source venv/bin/activate
+    **On Windows:**
+    venv\Scripts\activate
+
+    **On macOS/Linux:**
+    source venv/bin/activate
 
 
 3. **Install dependencies:**
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 4. **Run the API:**
-## 
-# Use uvicorn directly:
-uvicorn main:app --reload
-## # Or as a module:
-python -m uvicorn main:app --reload
+    **Use uvicorn directly:**
+    uvicorn main:app --reload
+
+    **Or as a module:**
+    python -m uvicorn main:app --reload
 
 
 5. **Visit Swagger UI:**
-Go to: http://127.0.0.1:8000/docs
+    Go to: http://127.0.0.1:8000/docs
 
 
 6. **Run Tests:**
-pytest
+    pytest
 
 
 ## Project Structure
 
-book_recreate/
-│
-├── main.py              # Entry point
-├── models/              # Pydantic models
-├── services/            # Business logic
-├── routers/             # API routes
-├── test_app/            # Unit tests
-├── requirements.txt     # Dependencies
-└── README.md            # Project documentation
+    book_recreate/
+    │
+    ├── main.py              # Entry point
+    ├── models/              # Pydantic models
+    ├── services/            # Business logic
+    ├── routers/             # API routes
+    ├── test_app/            # Unit tests
+    ├── requirements.txt     # Dependencies
+    └── README.md            # Project documentation
 
 
 ## 👨‍💻 Author
-Built with ❤️ by Maureen Onovae and code in FastAPI.
+    Built with ❤️ by Maureen Onovae and code in FastAPI.
 
-*Feel free to contribute, raise issues, or suggest improvements.*
+    *Feel free to contribute, raise issues, or suggest improvements.*
